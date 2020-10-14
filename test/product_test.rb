@@ -1,10 +1,8 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/product'
-require 'pry'
 
 class ProductTest < Minitest::Test
-  #Iteration1
   def test_it_exists
     product = Product.new(:paper, 'toilet paper', 3.70, '10')
     assert_instance_of Product, product
