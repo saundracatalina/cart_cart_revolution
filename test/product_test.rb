@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/product'
+require 'pry'
 
 class ProductTest < Minitest::Test
   #Iteration1
